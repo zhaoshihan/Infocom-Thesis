@@ -1,0 +1,756 @@
+==*== timeslot=30 turn for running ==*==
+basic_info detail:
+time_slot:30
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=1.988727
+cloudlet[1]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.119327
+cloudlet[2]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.122952
+cloudlet[3]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.456633
+cloudlet[4]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.216432
+cloudlet[5]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.201043
+cloudlet[6]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.073598
+cloudlet[7]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=1.951799
+cloudlet[8]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=1.973811
+cloudlet[9]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.096126
+cloudlet[10]:servers_amount=20, idle_power=0.010000, peak_power=0.030000, PUE=1.989250
+cloudlet[11]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.010526
+cloudlet[12]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.304294
+cloudlet[13]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.476007
+cloudlet[14]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.439512
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=19, arrive=0, time_need=28, deadline=27, welfare=16.213260, unit_price=0.030476
+task[1]:workload=10, arrive=1, time_need=23, deadline=28, welfare=4.012085, unit_price=0.017444
+task[2]:workload=14, arrive=1, time_need=20, deadline=23, welfare=5.632324, unit_price=0.020115
+task[3]:workload=20, arrive=3, time_need=3, deadline=8, welfare=2.037695, unit_price=0.033962
+task[4]:workload=20, arrive=3, time_need=10, deadline=18, welfare=5.439590, unit_price=0.027198
+task[5]:workload=13, arrive=3, time_need=8, deadline=27, welfare=3.319495, unit_price=0.031918
+task[6]:workload=16, arrive=5, time_need=10, deadline=26, welfare=2.699933, unit_price=0.016875
+task[7]:workload=16, arrive=5, time_need=19, deadline=29, welfare=8.408844, unit_price=0.027661
+task[8]:workload=18, arrive=6, time_need=14, deadline=27, welfare=6.704186, unit_price=0.026604
+task[9]:workload=15, arrive=7, time_need=16, deadline=23, welfare=2.589659, unit_price=0.010790
+task[10]:workload=14, arrive=8, time_need=10, deadline=22, welfare=4.376730, unit_price=0.031262
+task[11]:workload=8, arrive=8, time_need=8, deadline=22, welfare=0.761861, unit_price=0.011904
+task[12]:workload=8, arrive=8, time_need=10, deadline=26, welfare=1.729338, unit_price=0.021617
+task[13]:workload=15, arrive=10, time_need=17, deadline=28, welfare=6.075552, unit_price=0.023826
+task[14]:workload=11, arrive=13, time_need=14, deadline=28, welfare=2.978716, unit_price=0.019342
+task[15]:workload=17, arrive=13, time_need=2, deadline=24, welfare=0.929988, unit_price=0.027353
+task[16]:workload=17, arrive=13, time_need=9, deadline=28, welfare=3.103428, unit_price=0.020284
+task[17]:workload=18, arrive=13, time_need=2, deadline=20, welfare=1.245553, unit_price=0.034599
+task[18]:workload=10, arrive=14, time_need=13, deadline=26, welfare=3.844695, unit_price=0.029575
+task[19]:workload=9, arrive=16, time_need=1, deadline=25, welfare=0.128336, unit_price=0.014260
+task[20]:workload=16, arrive=16, time_need=13, deadline=29, welfare=4.265631, unit_price=0.020508
+task[21]:workload=20, arrive=17, time_need=8, deadline=26, welfare=3.365738, unit_price=0.021036
+task[22]:workload=14, arrive=17, time_need=6, deadline=23, welfare=1.878497, unit_price=0.022363
+task[23]:workload=15, arrive=17, time_need=4, deadline=28, welfare=1.381417, unit_price=0.023024
+task[24]:workload=19, arrive=18, time_need=12, deadline=29, welfare=5.990498, unit_price=0.026274
+task[25]:workload=20, arrive=18, time_need=5, deadline=28, welfare=1.363872, unit_price=0.013639
+task[26]:workload=8, arrive=19, time_need=10, deadline=29, welfare=1.281686, unit_price=0.016021
+task[27]:workload=13, arrive=19, time_need=3, deadline=29, welfare=1.160469, unit_price=0.029756
+task[28]:workload=12, arrive=20, time_need=7, deadline=28, welfare=3.104019, unit_price=0.036953
+task[29]:workload=14, arrive=20, time_need=6, deadline=26, welfare=1.191951, unit_price=0.014190
+task[30]:workload=11, arrive=20, time_need=1, deadline=21, welfare=0.186884, unit_price=0.016989
+task[31]:workload=10, arrive=20, time_need=10, deadline=29, welfare=3.828310, unit_price=0.038283
+task[32]:workload=11, arrive=20, time_need=3, deadline=26, welfare=0.880674, unit_price=0.026687
+task[33]:workload=12, arrive=21, time_need=3, deadline=27, welfare=0.659746, unit_price=0.018326
+task[34]:workload=18, arrive=22, time_need=1, deadline=29, welfare=0.295400, unit_price=0.016411
+task[35]:workload=8, arrive=23, time_need=7, deadline=29, welfare=0.625653, unit_price=0.011172
+task[36]:workload=16, arrive=24, time_need=6, deadline=29, welfare=2.238840, unit_price=0.023321
+task[37]:workload=20, arrive=24, time_need=5, deadline=28, welfare=2.957334, unit_price=0.029573
+task[38]:workload=13, arrive=25, time_need=5, deadline=29, welfare=1.265579, unit_price=0.019470
+task[39]:workload=14, arrive=25, time_need=4, deadline=28, welfare=0.874966, unit_price=0.015624
+
+
+cur_solution detail:
+optimal:121.02843466775995
+accepted_rate:1.0
+execute_time:0.06795000000000007
+Ug:0
+cloudlet_counter:[(0, 40), (1, 33), (2, 29), (5, 28), (4, 27), (3, 27), (6, 24), (7, 24), (8, 23), (9, 21), (10, 20), (11, 20), (12, 15), (13, 13), (14, 12)]
+
+greedy_solution detail:
+optimal:120.34048662762505
+accepted_rate:0.975
+execute_time:0.0063509999999999955
+Ug:0
+cloudlet_counter:[(11, 38), (9, 37), (1, 34), (0, 30), (8, 30), (7, 29), (10, 28), (6, 24), (2, 21), (5, 21), (4, 16), (12, 13), (14, 12), (3, 10), (13, 6)]
+
+preempt_solution detail:
+optimal:109.73096020048278
+accepted_rate:0.95
+execute_time:0.004873000000000016
+Ug:0
+cloudlet_counter:[(7, 44), (0, 41), (8, 31), (11, 28), (6, 28), (10, 27), (1, 27), (9, 26), (2, 20), (5, 20), (4, 14), (12, 11), (14, 10), (3, 5), (13, 2)]
+
+online_solution ndetail:
+optimal:106.20971395603793
+accepted_rate:0.9
+execute_time:0.6355400000000001
+Ug:0.0
+cloudlet_counter:[(1, 33), (14, 31), (0, 29), (7, 28), (8, 25), (11, 23), (9, 23), (10, 23), (12, 22), (13, 20), (2, 17), (4, 15), (6, 13), (3, 12), (5, 10)]
+
+
+
+==*== timeslot=32 turn for running ==*==
+basic_info detail:
+time_slot:32
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.072428
+cloudlet[1]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=1.937270
+cloudlet[2]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.465580
+cloudlet[3]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=1.913293
+cloudlet[4]:servers_amount=20, idle_power=0.010000, peak_power=0.030000, PUE=2.129179
+cloudlet[5]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.219112
+cloudlet[6]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.212861
+cloudlet[7]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.272750
+cloudlet[8]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.105110
+cloudlet[9]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.402946
+cloudlet[10]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.202753
+cloudlet[11]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=1.911791
+cloudlet[12]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.342247
+cloudlet[13]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.083358
+cloudlet[14]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.442621
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=20, arrive=0, time_need=32, deadline=31, welfare=18.015267, unit_price=0.028149
+task[1]:workload=11, arrive=3, time_need=27, deadline=30, welfare=7.520109, unit_price=0.025320
+task[2]:workload=17, arrive=3, time_need=27, deadline=31, welfare=8.759268, unit_price=0.019083
+task[3]:workload=14, arrive=3, time_need=8, deadline=20, welfare=3.977043, unit_price=0.035509
+task[4]:workload=8, arrive=3, time_need=7, deadline=30, welfare=1.727706, unit_price=0.030852
+task[5]:workload=19, arrive=6, time_need=24, deadline=30, welfare=17.488639, unit_price=0.038352
+task[6]:workload=18, arrive=6, time_need=5, deadline=30, welfare=3.189704, unit_price=0.035441
+task[7]:workload=14, arrive=7, time_need=14, deadline=25, welfare=7.645974, unit_price=0.039010
+task[8]:workload=12, arrive=8, time_need=5, deadline=29, welfare=1.856594, unit_price=0.030943
+task[9]:workload=20, arrive=10, time_need=14, deadline=29, welfare=10.124823, unit_price=0.036160
+task[10]:workload=16, arrive=12, time_need=7, deadline=21, welfare=1.743940, unit_price=0.015571
+task[11]:workload=12, arrive=13, time_need=10, deadline=31, welfare=4.181217, unit_price=0.034843
+task[12]:workload=18, arrive=14, time_need=10, deadline=30, welfare=6.014668, unit_price=0.033415
+task[13]:workload=19, arrive=14, time_need=14, deadline=29, welfare=4.961426, unit_price=0.018652
+task[14]:workload=17, arrive=14, time_need=8, deadline=24, welfare=4.722755, unit_price=0.034726
+task[15]:workload=13, arrive=16, time_need=14, deadline=30, welfare=4.580588, unit_price=0.025168
+task[16]:workload=16, arrive=16, time_need=16, deadline=31, welfare=9.584159, unit_price=0.037438
+task[17]:workload=8, arrive=17, time_need=14, deadline=31, welfare=4.260348, unit_price=0.038039
+task[18]:workload=20, arrive=19, time_need=5, deadline=30, welfare=3.165303, unit_price=0.031653
+task[19]:workload=13, arrive=20, time_need=11, deadline=30, welfare=4.680338, unit_price=0.032730
+task[20]:workload=19, arrive=20, time_need=8, deadline=30, welfare=3.140081, unit_price=0.020658
+task[21]:workload=8, arrive=20, time_need=2, deadline=25, welfare=0.605715, unit_price=0.037857
+task[22]:workload=13, arrive=20, time_need=6, deadline=28, welfare=3.026852, unit_price=0.038806
+task[23]:workload=16, arrive=21, time_need=5, deadline=25, welfare=1.835643, unit_price=0.022946
+task[24]:workload=11, arrive=22, time_need=10, deadline=31, welfare=4.340067, unit_price=0.039455
+task[25]:workload=18, arrive=23, time_need=5, deadline=29, welfare=3.016746, unit_price=0.033519
+task[26]:workload=8, arrive=23, time_need=7, deadline=31, welfare=1.576893, unit_price=0.028159
+task[27]:workload=18, arrive=24, time_need=2, deadline=30, welfare=1.203973, unit_price=0.033444
+task[28]:workload=16, arrive=24, time_need=3, deadline=30, welfare=0.906619, unit_price=0.018888
+task[29]:workload=20, arrive=24, time_need=6, deadline=29, welfare=2.069615, unit_price=0.017247
+task[30]:workload=13, arrive=25, time_need=7, deadline=31, welfare=2.392609, unit_price=0.026292
+task[31]:workload=20, arrive=26, time_need=4, deadline=31, welfare=2.784650, unit_price=0.034808
+task[32]:workload=16, arrive=28, time_need=4, deadline=31, welfare=0.830388, unit_price=0.012975
+task[33]:workload=20, arrive=28, time_need=2, deadline=29, welfare=1.048891, unit_price=0.026222
+task[34]:workload=10, arrive=28, time_need=2, deadline=29, welfare=0.782819, unit_price=0.039141
+task[35]:workload=18, arrive=28, time_need=4, deadline=31, welfare=1.155752, unit_price=0.016052
+task[36]:workload=15, arrive=28, time_need=1, deadline=28, welfare=0.380650, unit_price=0.025377
+task[37]:workload=18, arrive=29, time_need=2, deadline=31, welfare=0.428784, unit_price=0.011911
+task[38]:workload=18, arrive=29, time_need=1, deadline=30, welfare=0.301854, unit_price=0.016770
+task[39]:workload=17, arrive=30, time_need=2, deadline=31, welfare=0.826154, unit_price=0.024299
+
+
+cur_solution detail:
+optimal:159.44056824720198
+accepted_rate:1.0
+execute_time:0.028254
+Ug:0
+cloudlet_counter:[(0, 49), (1, 33), (2, 29), (3, 29), (4, 29), (5, 26), (8, 25), (6, 23), (7, 21), (9, 18), (10, 18), (11, 17), (12, 14), (13, 13), (14, 11)]
+
+greedy_solution detail:
+optimal:156.44632260575776
+accepted_rate:0.975
+execute_time:0.007764000000000104
+Ug:0
+cloudlet_counter:[(13, 38), (8, 35), (0, 32), (1, 32), (3, 29), (11, 29), (4, 27), (10, 22), (6, 19), (5, 18), (7, 17), (9, 16), (12, 13), (2, 13), (14, 11)]
+
+preempt_solution detail:
+optimal:153.85971302955173
+accepted_rate:0.95
+execute_time:0.00599800000000017
+Ug:0
+cloudlet_counter:[(11, 49), (1, 32), (3, 30), (8, 30), (0, 29), (13, 26), (4, 26), (10, 24), (5, 18), (9, 17), (14, 13), (6, 13), (7, 12), (2, 12), (12, 7)]
+
+online_solution ndetail:
+optimal:143.33134891951428
+accepted_rate:0.825
+execute_time:0.5712820000000001
+Ug:0.0
+cloudlet_counter:[(0, 32), (14, 32), (1, 29), (11, 29), (3, 25), (13, 21), (8, 21), (2, 19), (10, 19), (12, 18), (9, 17), (5, 17), (7, 14), (4, 13), (6, 12)]
+
+
+
+==*== timeslot=34 turn for running ==*==
+basic_info detail:
+time_slot:34
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.213042
+cloudlet[1]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.332574
+cloudlet[2]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.181633
+cloudlet[3]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.004851
+cloudlet[4]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.370129
+cloudlet[5]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.393709
+cloudlet[6]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.479335
+cloudlet[7]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.113540
+cloudlet[8]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.326272
+cloudlet[9]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=1.951139
+cloudlet[10]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.334111
+cloudlet[11]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=1.993464
+cloudlet[12]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.314934
+cloudlet[13]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.301068
+cloudlet[14]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.425330
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=15, arrive=0, time_need=10, deadline=20, welfare=2.310996, unit_price=0.015407
+task[1]:workload=17, arrive=1, time_need=4, deadline=22, welfare=1.086863, unit_price=0.015983
+task[2]:workload=19, arrive=1, time_need=5, deadline=22, welfare=1.993708, unit_price=0.020986
+task[3]:workload=10, arrive=2, time_need=8, deadline=22, welfare=1.310093, unit_price=0.016376
+task[4]:workload=20, arrive=3, time_need=2, deadline=8, welfare=1.492513, unit_price=0.037313
+task[5]:workload=14, arrive=4, time_need=1, deadline=13, welfare=0.399912, unit_price=0.028565
+task[6]:workload=18, arrive=5, time_need=14, deadline=21, welfare=5.153398, unit_price=0.020450
+task[7]:workload=9, arrive=6, time_need=10, deadline=29, welfare=2.252207, unit_price=0.025025
+task[8]:workload=15, arrive=7, time_need=11, deadline=24, welfare=3.945998, unit_price=0.023915
+task[9]:workload=12, arrive=7, time_need=9, deadline=30, welfare=1.872791, unit_price=0.017341
+task[10]:workload=14, arrive=8, time_need=25, deadline=32, welfare=10.371828, unit_price=0.029634
+task[11]:workload=9, arrive=8, time_need=22, deadline=31, welfare=5.302969, unit_price=0.026783
+task[12]:workload=13, arrive=9, time_need=4, deadline=18, welfare=1.136784, unit_price=0.021861
+task[13]:workload=20, arrive=9, time_need=21, deadline=31, welfare=9.987816, unit_price=0.023781
+task[14]:workload=11, arrive=10, time_need=16, deadline=26, welfare=3.735156, unit_price=0.021222
+task[15]:workload=19, arrive=10, time_need=2, deadline=19, welfare=1.058611, unit_price=0.027858
+task[16]:workload=19, arrive=10, time_need=21, deadline=30, welfare=9.647998, unit_price=0.024180
+task[17]:workload=12, arrive=11, time_need=10, deadline=20, welfare=4.601084, unit_price=0.038342
+task[18]:workload=16, arrive=11, time_need=12, deadline=27, welfare=6.557487, unit_price=0.034154
+task[19]:workload=18, arrive=11, time_need=14, deadline=24, welfare=9.343833, unit_price=0.037079
+task[20]:workload=9, arrive=11, time_need=23, deadline=33, welfare=7.335639, unit_price=0.035438
+task[21]:workload=11, arrive=12, time_need=17, deadline=30, welfare=4.114409, unit_price=0.022002
+task[22]:workload=15, arrive=12, time_need=19, deadline=33, welfare=6.264677, unit_price=0.021981
+task[23]:workload=13, arrive=12, time_need=17, deadline=33, welfare=5.659226, unit_price=0.025607
+task[24]:workload=15, arrive=12, time_need=19, deadline=32, welfare=8.175884, unit_price=0.028687
+task[25]:workload=12, arrive=13, time_need=17, deadline=32, welfare=2.915284, unit_price=0.014291
+task[26]:workload=8, arrive=14, time_need=13, deadline=31, welfare=1.070450, unit_price=0.010293
+task[27]:workload=18, arrive=15, time_need=15, deadline=29, welfare=6.125080, unit_price=0.022685
+task[28]:workload=17, arrive=16, time_need=4, deadline=25, welfare=1.428901, unit_price=0.021013
+task[29]:workload=9, arrive=16, time_need=17, deadline=32, welfare=5.165573, unit_price=0.033762
+task[30]:workload=12, arrive=16, time_need=10, deadline=30, welfare=2.688850, unit_price=0.022407
+task[31]:workload=16, arrive=16, time_need=7, deadline=32, welfare=3.974326, unit_price=0.035485
+task[32]:workload=12, arrive=16, time_need=6, deadline=24, welfare=2.513117, unit_price=0.034904
+task[33]:workload=19, arrive=17, time_need=13, deadline=29, welfare=8.922613, unit_price=0.036124
+task[34]:workload=16, arrive=19, time_need=15, deadline=33, welfare=7.448661, unit_price=0.031036
+task[35]:workload=10, arrive=23, time_need=3, deadline=29, welfare=0.682072, unit_price=0.022736
+task[36]:workload=19, arrive=23, time_need=5, deadline=30, welfare=2.286639, unit_price=0.024070
+task[37]:workload=18, arrive=24, time_need=5, deadline=29, welfare=3.168734, unit_price=0.035208
+task[38]:workload=10, arrive=24, time_need=4, deadline=32, welfare=1.022137, unit_price=0.025553
+task[39]:workload=12, arrive=26, time_need=2, deadline=28, welfare=0.844691, unit_price=0.035195
+
+
+cur_solution detail:
+optimal:140.86857038528996
+accepted_rate:1.0
+execute_time:0.04092899999999999
+Ug:61.48886356358827
+cloudlet_counter:[(0, 76), (3, 40), (2, 33), (1, 32), (5, 32), (4, 30), (7, 30), (8, 25), (12, 25), (6, 24), (9, 23), (11, 23), (13, 22), (10, 19), (14, 18)]
+
+greedy_solution detail:
+optimal:134.93118113503527
+accepted_rate:0.95
+execute_time:0.010591000000000017
+Ug:57.15813741446207
+cloudlet_counter:[(12, 42), (11, 37), (2, 37), (3, 35), (4, 35), (9, 34), (7, 32), (8, 32), (5, 27), (0, 25), (13, 24), (1, 22), (10, 19), (6, 16), (14, 13)]
+
+preempt_solution detail:
+optimal:129.2894110049575
+accepted_rate:0.95
+execute_time:0.008167999999999953
+Ug:36.19194595383244
+cloudlet_counter:[(7, 50), (11, 47), (2, 39), (9, 34), (3, 33), (12, 30), (8, 29), (0, 26), (4, 23), (5, 23), (1, 22), (13, 21), (10, 18), (14, 16), (6, 13)]
+
+online_solution ndetail:
+optimal:122.75078359804179
+accepted_rate:0.875
+execute_time:0.7748169999999999
+Ug:14.86428337609199
+cloudlet_counter:[(0, 46), (2, 37), (7, 34), (12, 32), (3, 30), (9, 29), (11, 29), (13, 23), (4, 23), (8, 22), (5, 20), (1, 19), (10, 17), (14, 14), (6, 12)]
+
+
+
+==*== timeslot=36 turn for running ==*==
+basic_info detail:
+time_slot:36
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.349235
+cloudlet[1]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.285986
+cloudlet[2]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.293457
+cloudlet[3]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=1.990432
+cloudlet[4]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=1.985221
+cloudlet[5]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.111133
+cloudlet[6]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.242363
+cloudlet[7]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.440107
+cloudlet[8]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.308751
+cloudlet[9]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.441117
+cloudlet[10]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.212526
+cloudlet[11]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.031065
+cloudlet[12]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.100674
+cloudlet[13]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.043231
+cloudlet[14]:servers_amount=20, idle_power=0.010000, peak_power=0.030000, PUE=2.010779
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=18, arrive=3, time_need=33, deadline=35, welfare=6.555020, unit_price=0.011035
+task[1]:workload=11, arrive=6, time_need=14, deadline=20, welfare=4.200072, unit_price=0.027273
+task[2]:workload=13, arrive=6, time_need=16, deadline=24, welfare=2.424685, unit_price=0.011657
+task[3]:workload=10, arrive=8, time_need=7, deadline=21, welfare=2.607401, unit_price=0.037249
+task[4]:workload=11, arrive=10, time_need=25, deadline=35, welfare=6.506259, unit_price=0.023659
+task[5]:workload=11, arrive=10, time_need=19, deadline=34, welfare=6.274951, unit_price=0.030024
+task[6]:workload=8, arrive=10, time_need=12, deadline=22, welfare=2.819994, unit_price=0.029375
+task[7]:workload=19, arrive=10, time_need=8, deadline=32, welfare=4.801441, unit_price=0.031588
+task[8]:workload=15, arrive=11, time_need=7, deadline=23, welfare=2.257145, unit_price=0.021497
+task[9]:workload=15, arrive=13, time_need=9, deadline=24, welfare=3.218710, unit_price=0.023842
+task[10]:workload=20, arrive=14, time_need=22, deadline=35, welfare=6.999136, unit_price=0.015907
+task[11]:workload=15, arrive=15, time_need=6, deadline=30, welfare=2.447930, unit_price=0.027199
+task[12]:workload=13, arrive=15, time_need=18, deadline=33, welfare=3.985903, unit_price=0.017034
+task[13]:workload=13, arrive=16, time_need=15, deadline=32, welfare=7.743260, unit_price=0.039709
+task[14]:workload=8, arrive=16, time_need=2, deadline=33, welfare=0.420750, unit_price=0.026297
+task[15]:workload=17, arrive=16, time_need=17, deadline=35, welfare=7.768773, unit_price=0.026882
+task[16]:workload=12, arrive=16, time_need=13, deadline=28, welfare=6.130476, unit_price=0.039298
+task[17]:workload=13, arrive=17, time_need=11, deadline=28, welfare=2.504796, unit_price=0.017516
+task[18]:workload=18, arrive=19, time_need=4, deadline=23, welfare=2.749518, unit_price=0.038188
+task[19]:workload=10, arrive=20, time_need=6, deadline=34, welfare=1.762787, unit_price=0.029380
+task[20]:workload=16, arrive=20, time_need=16, deadline=35, welfare=6.520107, unit_price=0.025469
+task[21]:workload=13, arrive=20, time_need=11, deadline=33, welfare=5.698348, unit_price=0.039849
+task[22]:workload=19, arrive=20, time_need=10, deadline=32, welfare=4.569587, unit_price=0.024050
+task[23]:workload=15, arrive=20, time_need=5, deadline=25, welfare=2.443029, unit_price=0.032574
+task[24]:workload=19, arrive=20, time_need=15, deadline=35, welfare=11.375986, unit_price=0.039916
+task[25]:workload=20, arrive=20, time_need=12, deadline=35, welfare=8.897400, unit_price=0.037073
+task[26]:workload=9, arrive=21, time_need=13, deadline=34, welfare=3.058562, unit_price=0.026142
+task[27]:workload=11, arrive=22, time_need=10, deadline=34, welfare=4.286389, unit_price=0.038967
+task[28]:workload=20, arrive=23, time_need=12, deadline=34, welfare=5.476619, unit_price=0.022819
+task[29]:workload=8, arrive=24, time_need=12, deadline=35, welfare=1.706120, unit_price=0.017772
+task[30]:workload=12, arrive=25, time_need=1, deadline=33, welfare=0.196298, unit_price=0.016358
+task[31]:workload=20, arrive=25, time_need=7, deadline=31, welfare=2.975573, unit_price=0.021254
+task[32]:workload=12, arrive=25, time_need=6, deadline=33, welfare=2.618875, unit_price=0.036373
+task[33]:workload=13, arrive=25, time_need=3, deadline=27, welfare=0.475892, unit_price=0.012202
+task[34]:workload=12, arrive=26, time_need=9, deadline=34, welfare=1.319609, unit_price=0.012219
+task[35]:workload=16, arrive=30, time_need=3, deadline=33, welfare=1.411702, unit_price=0.029410
+task[36]:workload=13, arrive=30, time_need=6, deadline=35, welfare=2.480882, unit_price=0.031806
+task[37]:workload=20, arrive=32, time_need=1, deadline=33, welfare=0.566255, unit_price=0.028313
+task[38]:workload=8, arrive=32, time_need=4, deadline=35, welfare=0.995281, unit_price=0.031103
+task[39]:workload=13, arrive=33, time_need=3, deadline=35, welfare=0.970228, unit_price=0.024878
+
+
+cur_solution detail:
+optimal:134.11416783375878
+accepted_rate:0.95
+execute_time:0.029112000000000027
+Ug:50.28120206102392
+cloudlet_counter:[(0, 60), (1, 37), (2, 33), (3, 28), (4, 28), (5, 27), (11, 26), (6, 25), (7, 24), (8, 23), (14, 23), (10, 20), (9, 19), (12, 19), (13, 19)]
+
+greedy_solution detail:
+optimal:126.36551950553225
+accepted_rate:0.95
+execute_time:0.008470999999999895
+Ug:45.07704935035001
+cloudlet_counter:[(11, 41), (3, 36), (12, 34), (4, 33), (6, 32), (5, 31), (14, 30), (1, 28), (10, 27), (13, 26), (2, 21), (8, 18), (0, 17), (7, 14), (9, 14)]
+
+preempt_solution detail:
+optimal:120.49004442822273
+accepted_rate:0.9
+execute_time:0.005904000000000131
+Ug:8.824586858376872
+cloudlet_counter:[(3, 51), (11, 47), (14, 39), (4, 33), (12, 30), (5, 28), (13, 26), (10, 21), (6, 21), (1, 20), (2, 15), (8, 14), (0, 13), (7, 10), (9, 7)]
+
+online_solution ndetail:
+optimal:119.83732111209382
+accepted_rate:0.875
+execute_time:0.7275930000000002
+Ug:9.542425088157714
+cloudlet_counter:[(14, 40), (11, 37), (4, 33), (0, 31), (1, 31), (3, 30), (5, 28), (12, 26), (13, 24), (2, 19), (10, 19), (6, 18), (7, 15), (8, 12), (9, 9)]
+
+
+
+==*== timeslot=38 turn for running ==*==
+basic_info detail:
+time_slot:38
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.322070
+cloudlet[1]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.358274
+cloudlet[2]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.208059
+cloudlet[3]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.360006
+cloudlet[4]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.235965
+cloudlet[5]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.369888
+cloudlet[6]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.368976
+cloudlet[7]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.031712
+cloudlet[8]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.388027
+cloudlet[9]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.164080
+cloudlet[10]:servers_amount=18, idle_power=0.010000, peak_power=0.030000, PUE=2.074185
+cloudlet[11]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.267664
+cloudlet[12]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.417749
+cloudlet[13]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.256379
+cloudlet[14]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.336387
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=14, arrive=1, time_need=28, deadline=34, welfare=5.399813, unit_price=0.013775
+task[1]:workload=17, arrive=2, time_need=36, deadline=37, welfare=11.247758, unit_price=0.018379
+task[2]:workload=10, arrive=2, time_need=27, deadline=28, welfare=5.430577, unit_price=0.020113
+task[3]:workload=16, arrive=3, time_need=29, deadline=34, welfare=10.451107, unit_price=0.022524
+task[4]:workload=16, arrive=3, time_need=2, deadline=31, welfare=0.663827, unit_price=0.020745
+task[5]:workload=20, arrive=5, time_need=12, deadline=18, welfare=7.455260, unit_price=0.031064
+task[6]:workload=19, arrive=8, time_need=2, deadline=21, welfare=0.527832, unit_price=0.013890
+task[7]:workload=10, arrive=8, time_need=28, deadline=36, welfare=9.148663, unit_price=0.032674
+task[8]:workload=10, arrive=9, time_need=2, deadline=14, welfare=0.393822, unit_price=0.019691
+task[9]:workload=9, arrive=10, time_need=5, deadline=36, welfare=1.735142, unit_price=0.038559
+task[10]:workload=15, arrive=14, time_need=12, deadline=36, welfare=3.102431, unit_price=0.017236
+task[11]:workload=14, arrive=14, time_need=12, deadline=29, welfare=2.991710, unit_price=0.017808
+task[12]:workload=14, arrive=15, time_need=23, deadline=37, welfare=11.650321, unit_price=0.036181
+task[13]:workload=17, arrive=15, time_need=18, deadline=36, welfare=4.539086, unit_price=0.014834
+task[14]:workload=8, arrive=15, time_need=14, deadline=30, welfare=4.163944, unit_price=0.037178
+task[15]:workload=17, arrive=16, time_need=22, deadline=37, welfare=5.434469, unit_price=0.014531
+task[16]:workload=15, arrive=16, time_need=20, deadline=37, welfare=8.975565, unit_price=0.029919
+task[17]:workload=12, arrive=16, time_need=10, deadline=37, welfare=2.642936, unit_price=0.022024
+task[18]:workload=17, arrive=17, time_need=14, deadline=37, welfare=9.177615, unit_price=0.038561
+task[19]:workload=10, arrive=18, time_need=14, deadline=34, welfare=2.768850, unit_price=0.019777
+task[20]:workload=8, arrive=18, time_need=19, deadline=36, welfare=2.034165, unit_price=0.013383
+task[21]:workload=20, arrive=18, time_need=20, deadline=37, welfare=11.686183, unit_price=0.029215
+task[22]:workload=17, arrive=21, time_need=13, deadline=33, welfare=3.365142, unit_price=0.015227
+task[23]:workload=8, arrive=23, time_need=4, deadline=34, welfare=1.114167, unit_price=0.034818
+task[24]:workload=16, arrive=24, time_need=1, deadline=37, welfare=0.241138, unit_price=0.015071
+task[25]:workload=20, arrive=24, time_need=9, deadline=36, welfare=4.400089, unit_price=0.024445
+task[26]:workload=11, arrive=24, time_need=4, deadline=34, welfare=0.535598, unit_price=0.012173
+task[27]:workload=15, arrive=25, time_need=1, deadline=30, welfare=0.417875, unit_price=0.027858
+task[28]:workload=18, arrive=25, time_need=7, deadline=32, welfare=2.104860, unit_price=0.016705
+task[29]:workload=11, arrive=25, time_need=13, deadline=37, welfare=1.619726, unit_price=0.011327
+task[30]:workload=15, arrive=26, time_need=6, deadline=36, welfare=3.144569, unit_price=0.034940
+task[31]:workload=14, arrive=27, time_need=1, deadline=30, welfare=0.283456, unit_price=0.020247
+task[32]:workload=17, arrive=27, time_need=10, deadline=36, welfare=4.983317, unit_price=0.029314
+task[33]:workload=8, arrive=28, time_need=8, deadline=36, welfare=1.022342, unit_price=0.015974
+task[34]:workload=13, arrive=29, time_need=1, deadline=32, welfare=0.210666, unit_price=0.016205
+task[35]:workload=10, arrive=30, time_need=5, deadline=37, welfare=1.157367, unit_price=0.023147
+task[36]:workload=19, arrive=31, time_need=6, deadline=37, welfare=2.247395, unit_price=0.019714
+task[37]:workload=14, arrive=31, time_need=5, deadline=36, welfare=1.257318, unit_price=0.017962
+task[38]:workload=11, arrive=31, time_need=4, deadline=35, welfare=1.104967, unit_price=0.025113
+task[39]:workload=13, arrive=31, time_need=7, deadline=37, welfare=2.720057, unit_price=0.029891
+
+
+cur_solution detail:
+optimal:116.15835603989561
+accepted_rate:0.875
+execute_time:0.03261000000000003
+Ug:93.2534451435269
+cloudlet_counter:[(0, 43), (1, 37), (2, 36), (7, 36), (3, 35), (5, 32), (4, 31), (6, 29), (8, 23), (9, 23), (10, 23), (11, 22), (12, 19), (13, 19), (14, 18)]
+
+greedy_solution detail:
+optimal:110.74362259201372
+accepted_rate:0.925
+execute_time:0.01129599999999975
+Ug:108.80864900484588
+cloudlet_counter:[(7, 40), (9, 36), (10, 36), (2, 35), (14, 33), (8, 33), (4, 32), (11, 32), (0, 29), (13, 29), (12, 26), (1, 24), (6, 22), (3, 21), (5, 21)]
+
+preempt_solution detail:
+optimal:113.09115728370736
+accepted_rate:0.925
+execute_time:0.007954999999999934
+Ug:93.9031434275359
+cloudlet_counter:[(7, 56), (9, 50), (10, 40), (0, 35), (2, 34), (11, 33), (4, 31), (13, 24), (14, 23), (3, 23), (6, 23), (1, 22), (5, 20), (8, 17), (12, 13)]
+
+online_solution ndetail:
+optimal:113.77201884765428
+accepted_rate:0.85
+execute_time:0.7266530000000002
+Ug:82.06438485800047
+cloudlet_counter:[(7, 53), (9, 43), (10, 37), (0, 36), (2, 31), (11, 31), (4, 30), (14, 25), (13, 24), (1, 24), (3, 23), (6, 20), (5, 18), (8, 12), (12, 9)]
+
+
+
+==*== timeslot=40 turn for running ==*==
+basic_info detail:
+time_slot:40
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.255061
+cloudlet[1]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.294410
+cloudlet[2]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=1.989468
+cloudlet[3]:servers_amount=20, idle_power=0.010000, peak_power=0.030000, PUE=2.013621
+cloudlet[4]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.280986
+cloudlet[5]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.058084
+cloudlet[6]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.359400
+cloudlet[7]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=1.935793
+cloudlet[8]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.387190
+cloudlet[9]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.231013
+cloudlet[10]:servers_amount=20, idle_power=0.010000, peak_power=0.030000, PUE=2.352372
+cloudlet[11]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.024309
+cloudlet[12]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=1.905412
+cloudlet[13]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.277584
+cloudlet[14]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.349290
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=18, arrive=1, time_need=19, deadline=19, welfare=11.376477, unit_price=0.033265
+task[1]:workload=16, arrive=2, time_need=13, deadline=27, welfare=6.232468, unit_price=0.029964
+task[2]:workload=10, arrive=3, time_need=26, deadline=28, welfare=6.445613, unit_price=0.024791
+task[3]:workload=20, arrive=4, time_need=33, deadline=36, welfare=13.061351, unit_price=0.019790
+task[4]:workload=13, arrive=4, time_need=16, deadline=20, welfare=7.738906, unit_price=0.037206
+task[5]:workload=16, arrive=5, time_need=32, deadline=36, welfare=7.618246, unit_price=0.014879
+task[6]:workload=20, arrive=7, time_need=25, deadline=34, welfare=14.440108, unit_price=0.028880
+task[7]:workload=14, arrive=7, time_need=3, deadline=25, welfare=1.120852, unit_price=0.026687
+task[8]:workload=13, arrive=7, time_need=28, deadline=35, welfare=13.444858, unit_price=0.036936
+task[9]:workload=13, arrive=7, time_need=23, deadline=37, welfare=4.987287, unit_price=0.016680
+task[10]:workload=18, arrive=8, time_need=11, deadline=26, welfare=3.305628, unit_price=0.016695
+task[11]:workload=14, arrive=9, time_need=4, deadline=26, welfare=0.971140, unit_price=0.017342
+task[12]:workload=8, arrive=9, time_need=15, deadline=27, welfare=4.132421, unit_price=0.034437
+task[13]:workload=18, arrive=10, time_need=7, deadline=30, welfare=4.390170, unit_price=0.034843
+task[14]:workload=14, arrive=10, time_need=14, deadline=25, welfare=4.345214, unit_price=0.022169
+task[15]:workload=10, arrive=12, time_need=20, deadline=36, welfare=4.154179, unit_price=0.020771
+task[16]:workload=20, arrive=14, time_need=11, deadline=37, welfare=7.172402, unit_price=0.032602
+task[17]:workload=16, arrive=14, time_need=15, deadline=39, welfare=5.793553, unit_price=0.024140
+task[18]:workload=8, arrive=15, time_need=3, deadline=27, welfare=0.272482, unit_price=0.011353
+task[19]:workload=16, arrive=15, time_need=20, deadline=38, welfare=9.600485, unit_price=0.030002
+task[20]:workload=13, arrive=16, time_need=7, deadline=33, welfare=1.987005, unit_price=0.021835
+task[21]:workload=10, arrive=17, time_need=10, deadline=38, welfare=2.453614, unit_price=0.024536
+task[22]:workload=17, arrive=18, time_need=5, deadline=37, welfare=2.057563, unit_price=0.024207
+task[23]:workload=16, arrive=18, time_need=10, deadline=27, welfare=3.946977, unit_price=0.024669
+task[24]:workload=8, arrive=20, time_need=8, deadline=30, welfare=1.802850, unit_price=0.028170
+task[25]:workload=11, arrive=21, time_need=7, deadline=35, welfare=2.612283, unit_price=0.033926
+task[26]:workload=9, arrive=23, time_need=13, deadline=35, welfare=4.315321, unit_price=0.036883
+task[27]:workload=12, arrive=23, time_need=12, deadline=36, welfare=1.864855, unit_price=0.012950
+task[28]:workload=11, arrive=23, time_need=4, deadline=36, welfare=1.757457, unit_price=0.039942
+task[29]:workload=19, arrive=24, time_need=9, deadline=32, welfare=4.517645, unit_price=0.026419
+task[30]:workload=17, arrive=24, time_need=15, deadline=38, welfare=4.643973, unit_price=0.018212
+task[31]:workload=17, arrive=25, time_need=5, deadline=33, welfare=3.176935, unit_price=0.037376
+task[32]:workload=15, arrive=26, time_need=1, deadline=32, welfare=0.441873, unit_price=0.029458
+task[33]:workload=19, arrive=27, time_need=7, deadline=39, welfare=1.485890, unit_price=0.011172
+task[34]:workload=17, arrive=28, time_need=2, deadline=38, welfare=0.708342, unit_price=0.020834
+task[35]:workload=15, arrive=28, time_need=6, deadline=34, welfare=0.910003, unit_price=0.010111
+task[36]:workload=11, arrive=29, time_need=6, deadline=38, welfare=0.753072, unit_price=0.011410
+task[37]:workload=15, arrive=29, time_need=6, deadline=34, welfare=2.850217, unit_price=0.031669
+task[38]:workload=17, arrive=30, time_need=5, deadline=38, welfare=2.938913, unit_price=0.034575
+task[39]:workload=17, arrive=31, time_need=1, deadline=39, welfare=0.581629, unit_price=0.034213
+
+
+cur_solution detail:
+optimal:144.5568163920896
+accepted_rate:0.875
+execute_time:0.03790899999999997
+Ug:83.02230996310573
+cloudlet_counter:[(2, 38), (0, 38), (5, 36), (3, 35), (7, 34), (1, 32), (9, 31), (12, 31), (4, 30), (11, 28), (6, 25), (13, 25), (8, 24), (10, 24), (14, 12)]
+
+greedy_solution detail:
+optimal:141.29828447769614
+accepted_rate:0.975
+execute_time:0.009249999999999758
+Ug:101.1759798914548
+cloudlet_counter:[(12, 38), (2, 36), (7, 35), (9, 35), (8, 34), (3, 34), (11, 32), (5, 31), (0, 31), (4, 27), (1, 27), (10, 27), (6, 27), (13, 26), (14, 25)]
+
+preempt_solution detail:
+optimal:140.09309162939817
+accepted_rate:0.975
+execute_time:0.007241999999999749
+Ug:90.66091753899687
+cloudlet_counter:[(12, 45), (7, 40), (2, 40), (9, 40), (3, 32), (11, 32), (5, 31), (0, 29), (13, 28), (4, 28), (1, 26), (10, 25), (6, 24), (14, 21), (8, 21)]
+
+online_solution ndetail:
+optimal:144.601864615753
+accepted_rate:0.875
+execute_time:0.8367699999999996
+Ug:69.2206257378685
+cloudlet_counter:[(7, 49), (12, 41), (2, 39), (3, 36), (11, 32), (5, 32), (9, 32), (0, 30), (13, 30), (1, 26), (4, 25), (14, 23), (10, 21), (6, 11), (8, 4)]
+
+
+
+==*== timeslot=42 turn for running ==*==
+basic_info detail:
+time_slot:42
+cloudlet_count:15
+task_count:40
+original_energy:600
+energy_cut:150
+
+cloudlet_info detail:
+server_mid:20
+server_range:(0.8, 1.2)
+idle_power:0.01
+peak_power:0.03
+PUE_range:(1.9, 2.5)
+data:cloudlet[0]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.260822
+cloudlet[1]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=2.081200
+cloudlet[2]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=1.946758
+cloudlet[3]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.137682
+cloudlet[4]:servers_amount=23, idle_power=0.010000, peak_power=0.030000, PUE=1.945764
+cloudlet[5]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=1.901692
+cloudlet[6]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=1.986073
+cloudlet[7]:servers_amount=22, idle_power=0.010000, peak_power=0.030000, PUE=2.357445
+cloudlet[8]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.198476
+cloudlet[9]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.417774
+cloudlet[10]:servers_amount=21, idle_power=0.010000, peak_power=0.030000, PUE=2.250012
+cloudlet[11]:servers_amount=24, idle_power=0.010000, peak_power=0.030000, PUE=2.460076
+cloudlet[12]:servers_amount=17, idle_power=0.010000, peak_power=0.030000, PUE=2.408240
+cloudlet[13]:servers_amount=19, idle_power=0.010000, peak_power=0.030000, PUE=2.268686
+cloudlet[14]:servers_amount=16, idle_power=0.010000, peak_power=0.030000, PUE=2.341914
+
+
+task_info detail:
+workload_max:20
+workload_range:(0.4, 1)
+elastic_time:0
+welfare_ratio:(0.01, 0.04)
+data:task[0]:workload=11, arrive=2, time_need=31, deadline=37, welfare=7.914314, unit_price=0.023209
+task[1]:workload=14, arrive=4, time_need=3, deadline=36, welfare=1.118057, unit_price=0.026620
+task[2]:workload=9, arrive=5, time_need=24, deadline=34, welfare=7.601395, unit_price=0.035192
+task[3]:workload=17, arrive=5, time_need=22, deadline=36, welfare=6.451151, unit_price=0.017249
+task[4]:workload=10, arrive=5, time_need=26, deadline=34, welfare=9.758158, unit_price=0.037531
+task[5]:workload=16, arrive=7, time_need=26, deadline=33, welfare=5.354187, unit_price=0.012871
+task[6]:workload=11, arrive=8, time_need=23, deadline=38, welfare=7.441265, unit_price=0.029412
+task[7]:workload=18, arrive=8, time_need=34, deadline=41, welfare=22.855982, unit_price=0.037346
+task[8]:workload=17, arrive=10, time_need=12, deadline=35, welfare=5.286110, unit_price=0.025912
+task[9]:workload=12, arrive=11, time_need=8, deadline=41, welfare=1.793475, unit_price=0.018682
+task[10]:workload=14, arrive=11, time_need=4, deadline=24, welfare=1.482921, unit_price=0.026481
+task[11]:workload=16, arrive=12, time_need=17, deadline=41, welfare=7.400750, unit_price=0.027209
+task[12]:workload=11, arrive=13, time_need=3, deadline=39, welfare=0.757330, unit_price=0.022949
+task[13]:workload=10, arrive=14, time_need=16, deadline=31, welfare=5.704556, unit_price=0.035653
+task[14]:workload=20, arrive=14, time_need=20, deadline=33, welfare=8.033814, unit_price=0.020085
+task[15]:workload=15, arrive=16, time_need=6, deadline=35, welfare=1.534596, unit_price=0.017051
+task[16]:workload=19, arrive=17, time_need=21, deadline=39, welfare=14.704331, unit_price=0.036853
+task[17]:workload=10, arrive=17, time_need=23, deadline=41, welfare=6.716074, unit_price=0.029200
+task[18]:workload=13, arrive=17, time_need=13, deadline=38, welfare=5.183068, unit_price=0.030669
+task[19]:workload=12, arrive=17, time_need=15, deadline=31, welfare=5.844264, unit_price=0.032468
+task[20]:workload=9, arrive=17, time_need=15, deadline=35, welfare=3.324941, unit_price=0.024629
+task[21]:workload=15, arrive=18, time_need=2, deadline=21, welfare=0.706859, unit_price=0.023562
+task[22]:workload=17, arrive=21, time_need=12, deadline=36, welfare=2.597317, unit_price=0.012732
+task[23]:workload=11, arrive=23, time_need=14, deadline=38, welfare=5.541356, unit_price=0.035983
+task[24]:workload=17, arrive=25, time_need=9, deadline=33, welfare=4.892244, unit_price=0.031975
+task[25]:workload=10, arrive=26, time_need=6, deadline=36, welfare=1.126173, unit_price=0.018770
+task[26]:workload=19, arrive=27, time_need=12, deadline=40, welfare=3.788563, unit_price=0.016617
+task[27]:workload=20, arrive=29, time_need=2, deadline=41, welfare=1.192136, unit_price=0.029803
+task[28]:workload=14, arrive=29, time_need=9, deadline=39, welfare=4.796959, unit_price=0.038071
+task[29]:workload=19, arrive=30, time_need=11, deadline=40, welfare=7.421367, unit_price=0.035509
+task[30]:workload=11, arrive=31, time_need=4, deadline=35, welfare=1.627912, unit_price=0.036998
+task[31]:workload=13, arrive=31, time_need=11, deadline=41, welfare=5.207256, unit_price=0.036414
+task[32]:workload=18, arrive=31, time_need=3, deadline=35, welfare=0.805490, unit_price=0.014916
+task[33]:workload=20, arrive=31, time_need=3, deadline=41, welfare=1.928202, unit_price=0.032137
+task[34]:workload=12, arrive=32, time_need=10, deadline=41, welfare=1.585393, unit_price=0.013212
+task[35]:workload=18, arrive=33, time_need=5, deadline=39, welfare=2.704006, unit_price=0.030045
+task[36]:workload=19, arrive=34, time_need=3, deadline=39, welfare=1.438094, unit_price=0.025230
+task[37]:workload=13, arrive=35, time_need=3, deadline=37, welfare=0.977129, unit_price=0.025055
+task[38]:workload=18, arrive=37, time_need=2, deadline=38, welfare=0.613138, unit_price=0.017032
+task[39]:workload=15, arrive=38, time_need=1, deadline=38, welfare=0.353001, unit_price=0.023533
+
+
+cur_solution detail:
+optimal:147.2348324837476
+accepted_rate:0.925
+execute_time:0.039388999999999896
+Ug:95.18360763681437
+cloudlet_counter:[(1, 52), (4, 39), (0, 38), (3, 37), (2, 35), (5, 34), (7, 32), (6, 29), (10, 29), (8, 28), (9, 28), (13, 23), (11, 20), (12, 18), (14, 17)]
+
+greedy_solution detail:
+optimal:143.1185452807637
+accepted_rate:0.95
+execute_time:0.011110000000000397
+Ug:110.37856279671496
+cloudlet_counter:[(4, 41), (5, 40), (7, 38), (2, 37), (1, 36), (3, 36), (6, 35), (0, 29), (10, 29), (8, 29), (13, 28), (11, 24), (12, 23), (14, 22), (9, 21)]
+
+preempt_solution detail:
+optimal:141.21706972890433
+accepted_rate:0.925
+execute_time:0.007432999999998913
+Ug:88.243640756394
+cloudlet_counter:[(4, 64), (1, 50), (5, 38), (2, 34), (6, 34), (3, 31), (10, 28), (7, 28), (8, 26), (13, 25), (0, 23), (11, 20), (14, 18), (9, 17), (12, 16)]
+
+online_solution ndetail:
+optimal:142.56418711445818
+accepted_rate:0.875
+execute_time:0.8714500000000012
+Ug:84.72941954879617
+cloudlet_counter:[(4, 60), (1, 54), (5, 37), (7, 35), (2, 32), (6, 31), (3, 31), (10, 30), (8, 25), (13, 25), (0, 24), (14, 21), (12, 19), (9, 13), (11, 9)]
+
+
+
