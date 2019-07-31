@@ -47,7 +47,7 @@ class Cluster:
         # 记录贪心算法的结果
         self.greedy_solution = dict()
         # 记录抢占式算法的结果
-        self.preempt_solution = dict()
+        self.FCFS_solution = dict()
         # 记录局部最优解的结果
         self.online_solution = dict()
         # 记录全局最优解的结果
@@ -271,8 +271,8 @@ class Cluster:
         self.greedy_solution["electricity_counter"] = electricity_counter.values()
         # self.greedy_solution["schedule"] = schedule_output
 
-    # 抢占式算法，先来先占资源，执行task中途考虑换cloudlet，考虑弹性时间延长
-    def preempt_with_penalty(self):
+    # 先来先占资源，执行task中途考虑换cloudlet，考虑弹性时间延长
+    def FCFS_with_penalty(self):
         start = time.clock()
         # Beta[l] 常量，表示第h个cloudlet的power范围
         power_range_array = np.array([(l.peak_power - l.idle_power) * l.PUE for l in self.cloudlet_list])
@@ -350,12 +350,12 @@ class Cluster:
             total_inner_battery = 0
         end = time.clock()
 
-        self.preempt_solution["optimal"] = total_optimal - inner_power_percost * total_inner_battery
-        self.preempt_solution["accepted_rate"] = accepted_task_count / self.task_count
-        self.preempt_solution["execute_time"] = end - start
-        self.preempt_solution["Ug"] = total_inner_battery
-        self.preempt_solution["cloudlet_counter"] = cloudlet_counter.most_common()
-        self.preempt_solution["electricity_counter"] = electricity_counter.values()
+        self.FCFS_solution["optimal"] = total_optimal - inner_power_percost * total_inner_battery
+        self.FCFS_solution["accepted_rate"] = accepted_task_count / self.task_count
+        self.FCFS_solution["execute_time"] = end - start
+        self.FCFS_solution["Ug"] = total_inner_battery
+        self.FCFS_solution["cloudlet_counter"] = cloudlet_counter.most_common()
+        self.FCFS_solution["electricity_counter"] = electricity_counter.values()
         # self.preempt_solution["schedule"] = schedule_output
 
     # 对每个task到来时进行优化，得到局部最优

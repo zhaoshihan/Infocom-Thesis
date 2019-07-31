@@ -24,9 +24,9 @@ def draw_figure_1():
 
     width = 0.21875
     fig, ax1 = plt.subplots()
-    cur_bar = ax1.bar(x, percent_50_array, width=0.25, label='50%', fc='red', ec='black')
-    preempt_bar = ax1.bar(x + 1.2 * width, percent_100_array, width=0.25, label='100%', fc='yellow', ec='black')
-    online_bar = ax1.bar(x + 2 * 1.2 * width, percent_150_array, width=0.25, label='150%', fc='blue', ec='black')
+    cur_bar = ax1.bar(x, percent_50_array, width=0.25, label='0.5x', fc='red', ec='black')
+    preempt_bar = ax1.bar(x + 1.2 * width, percent_100_array, width=0.25, label='1.0x', fc='yellow', ec='black')
+    online_bar = ax1.bar(x + 2 * 1.2 * width, percent_150_array, width=0.25, label='1.5x', fc='blue', ec='black')
 
     # ax1.set_title('Ratio Comparison')
 
@@ -62,7 +62,7 @@ def draw_figure_2():
     fig, ax1 = plt.subplots()
     cur_bar = ax1.bar(x, cur_array, width=0.25, label='PD', fc='blue', ec='black')
     preempt_bar = ax1.bar(x + 1.2 * width, greedy_array, width=0.25, label='Greedy', fc='green', ec='black')
-    online_bar = ax1.bar(x + 2 * 1.2 * width, preempt_array, width=0.25, label='Preempt', fc='orange', ec='black')
+    online_bar = ax1.bar(x + 2 * 1.2 * width, preempt_array, width=0.25, label='FCFS', fc='orange', ec='black')
 
     # ax1.set_title('Algorithm Comparation')
     ax1.set_ylabel('Cluster Utility', fontsize=20)
@@ -101,7 +101,7 @@ def draw_figure_3():
     fig, ax1 = plt.subplots()
     cur_bar = ax1.bar(x, cur_array, width, label='PD', fc='blue', ec='black')
     greedy_bar = ax1.bar(x + 1.2 * width, greedy_array, width, label='Greedy', fc='green', ec='black')
-    preempt_bar = ax1.bar(x + 2.4 * width, preempt_array, width, label='Preempt', fc='orange', ec='black')
+    preempt_bar = ax1.bar(x + 2.4 * width, preempt_array, width, label='FCFS', fc='orange', ec='black')
 
     # ax1.set_title('Algorithm Comparation')
     ax1.set_ylabel('Normalized Cluster Utility', fontsize=20)
@@ -139,7 +139,7 @@ def draw_figure_4():
     fig, ax1 = plt.subplots()
     cur_bar = ax1.bar(x, cur_array, width, label='PD', fc='blue', ec='black')
     greedy_bar = ax1.bar(x + 1.2 * width, greedy_array, width, label='Greedy', fc='green', ec='black')
-    preempt_bar = ax1.bar(x + 2.4 * width, preempt_array, width, label='Preempt', fc='orange', ec='black')
+    preempt_bar = ax1.bar(x + 2.4 * width, preempt_array, width, label='FCFS', fc='orange', ec='black')
 
     # ax1.set_title('Algorithm Comparation')
     ax1.set_ylabel('Normalized Cluster Utility', fontsize=20)
@@ -241,7 +241,7 @@ def draw_figure_6():
                         linestyle='-')
     greedy_plot = ax2.plot(x, greedy_array, label='Greedy', c='green', fillstyle='none', marker='^',
                             linestyle='-')
-    preempt_plot = ax2.plot(x, preempt_array, label='Preempt', c='orange', fillstyle='none', marker='p',
+    preempt_plot = ax2.plot(x, preempt_array, label='FCFS', c='orange', fillstyle='none', marker='p',
                             linestyle='-')
     online_plot = ax2.plot(x, online_array, label='MIP', c='gray', fillstyle='none', marker='o',
                                linestyle='-')
@@ -308,7 +308,7 @@ def draw_figure_7():
     ax2.plot(xnew, ynew, label='25%', c='blue', linestyle='-')
 
     # ax2.set_title('Electricity Usage')
-    ax2.set_ylabel('Competitive Ratio', fontsize=16)
+    ax2.set_ylabel('Approximation Ratio', fontsize=16)
     ax2.set_xlabel('Cluster Count', fontsize=16)
 
     ax2.set_xticks(x_ticks)
@@ -375,7 +375,7 @@ def draw_figure_8():
     ax2.plot(xnew, ynew, c='cyan', linestyle='-')
 
     # ax2.set_title('Electricity Usage')
-    ax2.set_ylabel('Competitive Ratio', fontsize=16)
+    ax2.set_ylabel('Approximation Ratio', fontsize=16)
     ax2.set_xlabel('Cluster Count', fontsize=16)
 
     ax2.set_xticks(x_ticks)
@@ -393,12 +393,12 @@ def draw_figure_8():
 
 
 if __name__ == '__main__':
-    # draw_figure_1()
+    draw_figure_1()
     # draw_figure_2()
     # draw_figure_3()
     # draw_figure_4()
     # draw_figure_5()
     # draw_figure_6()
 
-    # draw_figure_7()
-    # draw_figure_8()
+    draw_figure_7()
+    draw_figure_8()

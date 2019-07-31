@@ -70,12 +70,12 @@ if __name__ == '__main__':
 
         cluster.PD_scheduling()
         cluster.greedy_with_penalty()
-        cluster.preempt_with_penalty()
+        cluster.FCFS_with_penalty()
 
         while cluster.cur_solution["Ug"] >= cluster.greedy_solution["Ug"] \
-            or cluster.cur_solution["Ug"] >= cluster.preempt_solution["Ug"]\
+            or cluster.cur_solution["Ug"] >= cluster.FCFS_solution["Ug"]\
             or cluster.cur_solution["optimal"] <= cluster.greedy_solution["optimal"]\
-            or cluster.cur_solution["optimal"] <= cluster.preempt_solution["optimal"]:
+            or cluster.cur_solution["optimal"] <= cluster.FCFS_solution["optimal"]:
             cluster = Cluster(index=0, cloutlet_count=15, task_count=40,
                               end_EDR=36, original_energy=600, energy_cut=150)
             cluster.task_list = cluster.generate_task_list()
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
             cluster.PD_scheduling()
             cluster.greedy_with_penalty()
-            cluster.preempt_with_penalty()
+            cluster.FCFS_with_penalty()
 
         cluster.get_best_online()
         cluster.get_best_offline()
@@ -98,7 +98,7 @@ if __name__ == '__main__':
         print(list(cluster.greedy_solution["electricity_counter"]))
 
         print("\npreempt list:")
-        print(list(cluster.preempt_solution["electricity_counter"]))
+        print(list(cluster.FCFS_solution["electricity_counter"]))
 
         print("\nonline list:")
         print(list(cluster.online_solution["electricity_counter"]))
@@ -128,7 +128,7 @@ if __name__ == '__main__':
             f.writelines('{}:{}\n'.format(k, v) for k, v in cluster.greedy_solution.items())
 
             f.write("\npreempt_solution detail:\n")
-            f.writelines('{}:{}\n'.format(k, v) for k, v in cluster.preempt_solution.items())
+            f.writelines('{}:{}\n'.format(k, v) for k, v in cluster.FCFS_solution.items())
 
             f.write("\nonline_solution ndetail:\n")
             f.writelines('{}:{}\n'.format(k, v) for k, v in cluster.online_solution.items())
